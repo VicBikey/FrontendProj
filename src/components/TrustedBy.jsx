@@ -59,7 +59,7 @@ export const TrustedBy = () => {
           </div>
           
           <div className="flex flex-col">
-          <div className="absolute top-[50rem] left-[10rem] flex items-center">
+          <div className="absolute top-[50rem] left-[10rem] flex items-center ">
               <div>
               <p className="text-[#4361EE] text-[1.213rem]">CHECKOUT OUR NEW</p>
               <p className="text-[#2B2B2B] text-[2.488rem] font-semibold">Latest Listed Properties</p>
@@ -74,32 +74,69 @@ export const TrustedBy = () => {
             </div>
             
             
-              <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box absolute top-[10.938rem] w-[100%]">
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="rounded-box" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="rounded-box" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" className="rounded-box" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" className="rounded-box" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" className="rounded-box" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="rounded-box" />
+            <div className="carousel rounded-box absolute gap-[3.125rem] top-[12rem] w-[90rem]">
+  <div className="carousel-item relative">
+                  <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
+                </div> 
+                
+  <div className="carousel-item">
+    <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" />
+                </div> 
+                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
+                    
+                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
+                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
+                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
+                  </div>
+  
+  <div className="carousel-item">
+    <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" />
+                </div> 
+                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
+                    
+                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
+                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
+                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
+                </div>
+                
+  <div className="carousel-item">
+    <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Burger" />
+                </div> 
+                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
+                    
+                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
+                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
+                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
+                </div>
+                
+  <div className="carousel-item">
+    <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" />
+                </div> 
+                
+                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
+                    
+                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
+                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
+                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
+                  </div>
+  <div className="carousel-item">
+    <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Burger" />
+                </div> 
+                
+                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
+                    
+                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
+                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
+                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
+                  </div>
+            <div className="carousel-item">
+              <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Burger" />
+            </div>
           </div>
-              </div>
-              </div>
+          </div>
         </div>
          </div>
+
 
       </div>
       
