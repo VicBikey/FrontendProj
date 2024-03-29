@@ -1,7 +1,8 @@
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-[#03AEFD] text-[#FFFFFF] px-24 h-10">
+      <div className="z-50 sticky top-0">
+      <div className="navbar bg-[#03AEFD] text-[#FFFFFF] px-24 h-10 ">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">
             <img src="/location.png" alt="" />
@@ -106,7 +107,8 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+        </div>
+        </div>
     </>
   );
 };

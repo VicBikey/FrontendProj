@@ -9,24 +9,51 @@ export const Areas = () => {
               <p className="text-[#161616] text-[2.488rem] font-semibold">Neighborhood Properties</p>
           </div>
         <div className="items-center ">
-          <div className="flex gap-[3.125rem] mb-[3.125rem] ">
-          <img className="object-cover h-[20rem] w-[18.75rem] rounded-3xl " src="https://s3-alpha-sig.figma.com/img/cb34/2f15/fb4f38dac987650529c9ef447d378764?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=alsEaWehNnLtyIym76QL2YYVYyOzcSFK44uJrCLRDEip2UWb~jEDqItJpdww5prgMU77cQbGZJPtv3ZHXvYwjs3midt0AxXUonrtY7p9snutRpD~mBz-khp9zOMxE7nEzcisAQfyLb~1jNy0~eNz4j2vhd9kDMG42oF0I55HnzBtU4VVs~85~6584jp5YpmA4gc1t2ARPLKCQ5t0XPdgQvNqnXr9XZPcSyThDWGfv9LWLz0iAUWH9L~5MVr842W7hgyG7qSUeStmRD7Pd7iKBKprRRbMX6a9qU7dz-zsuvmXeR02nPBNZNCHxjXPVaKfc0wyRxdBujAjJE-dBSCrtw__" alt="" />
-          <img className="object-cover h-[20rem] w-[18.75rem] rounded-3xl" src="https://s3-alpha-sig.figma.com/img/c4ea/3e25/2db5f5baf15c5f9b74ee5561ae45e766?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mmGJTp2UXFvOVgz3j0BanNVMgIUaAYvvHpMwMtfHTQBp-MeLJzjVLLskHZlBFPl3kzFOW850Vu18PB9x4Jqnk7RYZu5m91NNvZwbAsJuFGWSDlErzGkt-gh02pmQ~TOvijAC1tNNe1MCbxndX7oq7rLyNRUuUlXXlBNzWxOHAcznBvBz8mz-sdu-awn~R5hlGzp-kL-0-V91y-TgTJ3W0Op1kkAvJ7i9tzvsRfSkVADcuZ4iwo09Y-7CnzxtHD7Iscwz0bDYyf7-YgYgYLSLKBSOYD17vyoEkedd1pRt4DbMolXDiO2ixf0-E98NC-8IytsrC~aJGzeP24tindqcTw__" alt="" />
-          <img className="object-cover h-[20rem] rounded-3xl flex-grow w-[26.25rem] " src="https://s3-alpha-sig.figma.com/img/676b/324e/a6e4ebc4cdef016c769251d115d020a5?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kwBsxIByQXDBeRVafX8wnXRkr85roGTTyQD~uMxIvBy~e2EghmzUMNPbY6Gd~mVoNuYG33cA1dIb3R5LwcIH2H8~9DiIXw1PRr3kD1r6J6Jo3m7-uSUvauzcYCQ0sbbTDNa2MgbOF2l5wmKp838SN4Axck-fhvhqKlieCnB~ijfkg8TV3gjVlJx-p08qdgtrJb3zfQ~-fllROr9GiQysYMcUefclRlQLDiSh~rlwJLzXR7cZ879GZrsrPBYq8BiMLAaeSeNS0qbU7~ifkQfGLKUJQJollYmwq2qGGKb98R-lZodxzQVleZbobVEhX2isGIW4NCyoQzuHZEArCTeB8A__" alt="" /> 
-          </div>
+        <div className="flex gap-[3.125rem] mb-[3.125rem] ">
+        <div className="relative">
+            <div className="flex flex-col gap-[1rem] absolute text-white z-10 left-[2.5rem] bottom-[1.875rem]"><p className="text-[3.581rem] text-[#FFFFFF90] font-semibold">216</p> <p className="text-[1.213rem] font-medium">Houston, TX</p>
+            </div>
+            <img className="object-cover h-[20rem] w-[18.75rem] rounded-3xl brightness-50 z-0" src="https://s3-alpha-sig.figma.com/img/cb34/2f15/fb4f38dac987650529c9ef447d378764?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=alsEaWehNnLtyIym76QL2YYVYyOzcSFK44uJrCLRDEip2UWb~jEDqItJpdww5prgMU77cQbGZJPtv3ZHXvYwjs3midt0AxXUonrtY7p9snutRpD~mBz-khp9zOMxE7nEzcisAQfyLb~1jNy0~eNz4j2vhd9kDMG42oF0I55HnzBtU4VVs~85~6584jp5YpmA4gc1t2ARPLKCQ5t0XPdgQvNqnXr9XZPcSyThDWGfv9LWLz0iAUWH9L~5MVr842W7hgyG7qSUeStmRD7Pd7iKBKprRRbMX6a9qU7dz-zsuvmXeR02nPBNZNCHxjXPVaKfc0wyRxdBujAjJE-dBSCrtw__" alt="" />
+        </div>
+                            
+        <div className="relative">
+            <div className="flex flex-col gap-[1rem] absolute text-white z-10 left-[2.5rem] bottom-[1.875rem]"><p className="text-[3.581rem] text-[#FFFFFF90] font-semibold">141</p> <p className="text-[1.213rem] font-medium">New York City, NY</p>
+            </div>
+            <img className="object-cover h-[20rem] w-[18.75rem] rounded-3xl brightness-50 z-0" src="https://s3-alpha-sig.figma.com/img/c4ea/3e25/2db5f5baf15c5f9b74ee5561ae45e766?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mmGJTp2UXFvOVgz3j0BanNVMgIUaAYvvHpMwMtfHTQBp-MeLJzjVLLskHZlBFPl3kzFOW850Vu18PB9x4Jqnk7RYZu5m91NNvZwbAsJuFGWSDlErzGkt-gh02pmQ~TOvijAC1tNNe1MCbxndX7oq7rLyNRUuUlXXlBNzWxOHAcznBvBz8mz-sdu-awn~R5hlGzp-kL-0-V91y-TgTJ3W0Op1kkAvJ7i9tzvsRfSkVADcuZ4iwo09Y-7CnzxtHD7Iscwz0bDYyf7-YgYgYLSLKBSOYD17vyoEkedd1pRt4DbMolXDiO2ixf0-E98NC-8IytsrC~aJGzeP24tindqcTw__" alt="" />
+        </div>
+
+        <div className="relative"> 
+            <div className="flex flex-col gap-[1rem] absolute text-white z-10 left-[2.5rem] bottom-[1.875rem]"><p className="text-[3.581rem] text-[#FFFFFF90] font-semibold">212</p> <p className="text-[1.213rem] font-medium">San Diego, CA</p>
+            </div>
+            <img className="object-cover h-[20rem] rounded-3xl flex-grow w-[26.25rem] brightness-50 z-0" src="https://s3-alpha-sig.figma.com/img/676b/324e/a6e4ebc4cdef016c769251d115d020a5?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kwBsxIByQXDBeRVafX8wnXRkr85roGTTyQD~uMxIvBy~e2EghmzUMNPbY6Gd~mVoNuYG33cA1dIb3R5LwcIH2H8~9DiIXw1PRr3kD1r6J6Jo3m7-uSUvauzcYCQ0sbbTDNa2MgbOF2l5wmKp838SN4Axck-fhvhqKlieCnB~ijfkg8TV3gjVlJx-p08qdgtrJb3zfQ~-fllROr9GiQysYMcUefclRlQLDiSh~rlwJLzXR7cZ879GZrsrPBYq8BiMLAaeSeNS0qbU7~ifkQfGLKUJQJollYmwq2qGGKb98R-lZodxzQVleZbobVEhX2isGIW4NCyoQzuHZEArCTeB8A__" alt="" /> 
+            </div>
+        </div>
 
           <div className="flex gap-[3.125rem]">
-              <img className="object-cover h-[20rem] w-[25.75rem] rounded-3xl" src="https://s3-alpha-sig.figma.com/img/1fa3/3cec/d27a6a9c14dae9f3b23138d8a84fef4a?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4KySV8BipwhBjpzwqtw7l4RXnGz32k1sTTUtunZg4aySPZpslx~fH95LhYENwuNvBtRaaGtreckswgJVMEkm5hyk5hKnyNpAjfbQfmxKg4RuQjvttYl9pV3xAJ7oaT8XA~vDWHzBoVkyBBD-4d5GtSx43mW1yiYTAhcGt9bc-8WZUKu16O3GKaiZy7M4s5BVS~r7QkLjNSNX7eqRuW1LEG4QnMDpsoO-oyhTc~cFysHPywGhuUqjY5kt85zQvrCfJSiUhLG4u38V8ct7Chbrk53Tq2NgO0kfOCsHqFJyC5a8-Vf4BmNIwr7aHvtxHEvDHzqfkrCrhV0q4CJPkuwhw__" alt="" />
-              <img className="object-cover h-[20rem] rounded-3xl flex-grow" src="https://s3-alpha-sig.figma.com/img/57f8/5829/4789792d8e3ff6ed2aa7b304fedf4612?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X2yIOlXjQg3Wj8KQB7-eQvGv1uhXklmp93XVkSt3yEnDpPoPSM2LD6iObxkqzUTzQaAwpXKWrjWJvXZ1CfREczjvbuvBgIoRFksYjOx-T08FVoPcIt8-Fe-yQunw8PknY6LR1S2xSynES7rz~sX9Cdj4Kk9r8YSnOhesehkXwIcugIamTL0iD4ucEcAgqzO4LSOIdRs9bj28NayoDphKfe0FOSKePmWpj8JQKiZCBHHPYRjV8kAjo1z5XSjW1RwpNnxl-NQrE~koOuomDojE3gJXW~-WYub4yMS0Qv4ML~c~ji4p4czJracZ9AOCOFBW8iE3yoV0RBpN1g3haDHRow__" alt="" />
-              </div>
+            
+        <div className="relative">
+           <div className="flex flex-col gap-[1rem] absolute text-white z-10 left-[2.5rem] bottom-[1.875rem]"><p className="text-[3.581rem] text-[#FFFFFF90] font-semibold">183</p> <p className="text-[1.213rem] font-medium">Philadelphia, PA</p>
+            </div>
+            <div className=" ">
+            <img className="object-cover h-[20rem] rounded-3xl brightness-50 z-0 min-w-[25.75rem]" src="https://s3-alpha-sig.figma.com/img/1fa3/3cec/d27a6a9c14dae9f3b23138d8a84fef4a?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4KySV8BipwhBjpzwqtw7l4RXnGz32k1sTTUtunZg4aySPZpslx~fH95LhYENwuNvBtRaaGtreckswgJVMEkm5hyk5hKnyNpAjfbQfmxKg4RuQjvttYl9pV3xAJ7oaT8XA~vDWHzBoVkyBBD-4d5GtSx43mW1yiYTAhcGt9bc-8WZUKu16O3GKaiZy7M4s5BVS~r7QkLjNSNX7eqRuW1LEG4QnMDpsoO-oyhTc~cFysHPywGhuUqjY5kt85zQvrCfJSiUhLG4u38V8ct7Chbrk53Tq2NgO0kfOCsHqFJyC5a8-Vf4BmNIwr7aHvtxHEvDHzqfkrCrhV0q4CJPkuwhw__" alt="" />
+            </div>
+        </div>
+                            
+        <div className="relative">
+           <div className="flex flex-col gap-[1rem] absolute text-white z-10 left-[2.5rem] bottom-[1.875rem]"><p className="text-[3.581rem] text-[#FFFFFF90] font-semibold">112</p> <p className="text-[1.213rem] font-medium">San Francisco, CA</p>
+            </div>          
+             <img className="object-cover h-[20rem] rounded-3xl flex-grow brightness-50 z-0 w-screen" src="https://s3-alpha-sig.figma.com/img/57f8/5829/4789792d8e3ff6ed2aa7b304fedf4612?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X2yIOlXjQg3Wj8KQB7-eQvGv1uhXklmp93XVkSt3yEnDpPoPSM2LD6iObxkqzUTzQaAwpXKWrjWJvXZ1CfREczjvbuvBgIoRFksYjOx-T08FVoPcIt8-Fe-yQunw8PknY6LR1S2xSynES7rz~sX9Cdj4Kk9r8YSnOhesehkXwIcugIamTL0iD4ucEcAgqzO4LSOIdRs9bj28NayoDphKfe0FOSKePmWpj8JQKiZCBHHPYRjV8kAjo1z5XSjW1RwpNnxl-NQrE~koOuomDojE3gJXW~-WYub4yMS0Qv4ML~c~ji4p4czJracZ9AOCOFBW8iE3yoV0RBpN1g3haDHRow__" alt="" />
+        </div>  
+                        
+            </div>
               </div>
                 </div>
 
                 <div className="Introduce flex flex-col px-[12.9rem]">
                     <div className="self-end rounded-full h-[6.25rem] w-[6.25rem] bg-gradient-to-br from-[#4361EE] to-[#4361EE00] mb-[5.063rem]"></div>
                     <div className="text-center">
-                    <p className="text-[#4361EE] text-[1.213rem] font-medium ">INTRODUCE YOURSELF TO </p>
-                    <p className="text-[#2B2B2B] text-[2.488rem] font-semibold">Our Team of Experts</p>
+                    <p className="text-[#4361EE] text-[1.213rem] font-medium mb-[1rem]">INTRODUCE YOURSELF TO </p>
+                    <p className="text-[#2B2B2B] text-[2.488rem] font-semibold mb-[6.25rem]">Our Team of Experts</p>
                     </div>
 
                     <div className="flex gap-[4.188rem] justify-center">

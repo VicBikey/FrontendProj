@@ -1,4 +1,4 @@
-export const Body = () => {
+export const Hero = () => {
   return (
     <div className="hero relative bg-gradient-to-t from-[#9daae4] to-[#FFFF] bg-opacity-70 min-h-screen bg-base-200 h-[56.375rem] flex">
       <div className="flex">
@@ -17,14 +17,14 @@ export const Body = () => {
             </p>
           </div>
           <div className="">
-            <div className="absolute left-[31.5rem] rounded-full h-[3.75rem] w-[3.75rem] bg-gradient-to-bl from-[#4361EE] to-[#4361EE bg-opacity-0] left-[10rem]"></div>
+            <div className="flex absolute left-[31.5rem] rounded-full h-[3.75rem] w-[3.75rem] bg-gradient-to-bl from-[#4361EE] to-[#4361EE bg-opacity-0] left-[10rem]"></div>
           </div>
         </div>
-        <div className="carousel w-[33.75rem] absolute top-[24rem]	left-[10rem] 'carousel-container h-[21.938rem] z-10">
-          <div id="slide1" className="carousel-item relative w-full ">
+        <div className="carousel w-[33.75rem] absolute top-[24rem]	left-[10rem] 'carousel-container h-[21.938rem] z-10 rounded-3xl">
+          <div id="slide1" className="carousel-item relative w-full">
             <img
               src="https://s3-alpha-sig.figma.com/img/8e3e/78b2/c0db865f789961bb3e28500f19c35c4e?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mDkqokxKTvIH3E073h0ly-7l9re~q2WBG2aGl829q78rvHqolssxHfcXK09DVsv7te1ODFoAcpan2yuygf~RyqRlAg8UmF8fxrf-94dWWRRuAnHLXePfvtUhToCAdn8tz4U9m6eVKiripQDC5QHB20RkN62lVXkWubZQ02Mr-v8Qjd4eX4RrED6Aop0oPHazxotC2g21rDHx0JHgfn4Ua9jymKaDi4RAiwryNBPK97uhUWz6RQKzHOq2S7vFGQETriSJtampafHIVLH1uweVahz7BtVugEgPbchVyzz0X26mHkiIEjBDoe9pN~b~L7Dk5lHPBICD3WzlywNN2rH8yg__"
-              className="w-full rounded-3xl"
+              className="w-full"
             />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide4" className="btn btn-circle">
@@ -38,7 +38,7 @@ export const Body = () => {
           <div id="slide2" className="carousel-item relative w-full">
             <img
               src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-              className="w-full rounded-3xl"
+              className="w-full"
             />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" className="btn btn-circle">
@@ -52,7 +52,7 @@ export const Body = () => {
           <div id="slide3" className="carousel-item relative w-full">
             <img
               src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-              className="w-full rounded-3xl"
+              className="w-full"
             />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" className="btn btn-circle">
@@ -66,7 +66,7 @@ export const Body = () => {
           <div id="slide4" className="carousel-item relative w-full">
             <img
               src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-              className="w-full rounded-3xl"
+              className="w-full"
             />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" className="btn btn-circle">

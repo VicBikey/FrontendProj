@@ -2,7 +2,7 @@ export const Testimonials = () => {
     return (
         <>
             <div className="bg-white">
-      <div className=" pt-[11.25rem] px-[10rem] flex justify-around items-center ">
+      <div className=" pt-[11.25rem] px-[10rem] flex justify-around items-center">
               <div className="flex flex-col items-start">
                 <p className="text-[#4361EE] ">TESTIMONIALS</p>
                 <p className="text-[2.488rem] text-[#2B2B2B] font-semibold my-[1.875rem] ">Look What Our<br/> Customers Say!</p>
@@ -36,16 +36,20 @@ export const Testimonials = () => {
                 </div>
                 
 
-                <div className="hero min-h-screen  flex justify-center">
-  <div className="hero-content h-[16.25rem] w-[75rem] flex-col lg:flex-row bg-[#03AEFD] rounded-3xl relative">
-    <img className=" w-[22.375rem] object-cover absolute bottom-0 left-0" src="picMan.png" />
-    <div className="flex flex-col ">
-      <h1 className="font-semibold text-[2.488rem] text-white ">Become a Agent.</h1>
-      <p className="py-6 font-normal text-[1rem] text-white ">Fusce venenatis tellus a felis scelerisque.<br/> venenatis tellus a felis scelerisque. </p>
-    </div>
-    <button className="btn btn-primary">Get Started</button>
-  </div>
-</div>
+          <div className="hero min-h-screen  flex justify-center mt-[7rem]">
+            
+            <div className="hero-content h-[16.25rem] w-[75rem] flex-col lg:flex-row bg-[#03AEFD] rounded-3xl relative ">
+            <div className=" absolute self-end bottom-9 left-[16.625rem] rounded-full h-[6.25rem] w-[6.25rem] bg-gradient-to-br from-[#FFFFFF70] to-[#FFFFFF00] "></div>
+            <div className="absolute top-0 right-7 bottom-[12.5rem] self-end rounded-full h-[6.25rem] w-[6.25rem] bg-gradient-to-br from-[#FFFFFF70] to-[#FFFFFF00]"></div>
+
+                <img className=" w-[22.375rem] object-cover absolute bottom-0 left-0" src="picMan.png" />
+                <div className="flex flex-col ">
+                <h1 className="font-semibold text-[2.488rem] text-white ">Become an Agent.</h1>
+                <p className="py-6 font-normal text-[1rem] text-white ">Fusce venenatis tellus a felis scelerisque.<br/> venenatis tellus a felis scelerisque. </p>
+                </div>
+                <button className="btn border-none bg-white text-[#03AEFD] rounded-3xl justify-self absolute right-[11.25rem]">Register Now</button>
+            </div>
+            </div>
             </div>
             </>
   )

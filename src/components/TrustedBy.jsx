@@ -3,7 +3,7 @@ import React from "react";
 export const TrustedBy = () => {
   return (
       <>
-          <div className="bg-[#FFFFFF] py-[8rem] h-[136.813rem]">
+          <div className="bg-[#FFFFFF] pt-[8rem] h-[80rem]">
       <div className="flex items-center relative justify-center">
         <div className="left-[12.563rem] absolute rounded-full h-[6.25rem] w-[6.25rem] bg-gradient-to-bl from-[#4361EE] to-[#4361EE bg-opacity-0]"></div>
 
@@ -54,89 +54,17 @@ export const TrustedBy = () => {
             <img className="rounded-3xl" src="Rectangle15.jpeg" alt="" />
             <img className="rounded-3xl" src="Rectangle16.jpeg" alt="" />
             <div className="left-[4rem] absolute rounded-full h-[3.75rem] w-[3.75rem] bg-gradient-to-bl from-[#4361EE] to-[#4361EE00] top-[30rem]"></div>
-          </div>
+              </div>
+              
             </div>
+            
           </div>
           
-          <div className="flex flex-col">
-          <div className="absolute top-[50rem] left-[10rem] flex items-center ">
-              <div>
-              <p className="text-[#4361EE] text-[1.213rem]">CHECKOUT OUR NEW</p>
-              <p className="text-[#2B2B2B] text-[2.488rem] font-semibold">Latest Listed Properties</p>
-                <div className="text-[#64748B] text-[1rem] font-normal">Donec porttitor euismod dignissim. Nullam a lacinia ipsum,<br /> nec dignissim purus. </div>
-              </div>
-                <div className="ml-[21.813rem]">
-              <ul className="flex gap-[1.25rem]">
-                      <li><a href="" className="py-3 px-4 text-center rounded-2xl border border-[#03AEFD] " >All</a></li>
-                      <li><a href="" className="py-3 px-4 text-center rounded-2xl text-white bg-[#03AEFD]" >Sell</a></li>
-                      <li><a href="" className="py-3 px-4 text-center rounded-2xl border border-[#03AEFD]" >Rent</a></li>
-              </ul>
-            </div>
+      
             
-            
-            <div className="carousel rounded-box absolute gap-[3.125rem] top-[12rem] w-[90rem]">
-  <div className="carousel-item relative">
-                  <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
-                </div> 
-                
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" />
-                </div> 
-                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
-                    
-                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
-                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
-                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
-                  </div>
-  
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" />
-                </div> 
-                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
-                    
-                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
-                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
-                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
-                </div>
-                
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Burger" />
-                </div> 
-                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
-                    
-                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
-                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
-                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
-                </div>
-                
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" />
-                </div> 
-                
-                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
-                    
-                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
-                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
-                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
-                  </div>
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Burger" />
-                </div> 
-                
-                <div className="mt-[2rem] flex flex-col absolute top-[25rem]">
-                    
-                  <p className="text-[1.725rem] font-normal	text-[#2B2B2B]">$ 5,970</p>
-                  <p className="text-[1.213rem] font-medium text-[#2B2B2B] mt-[1.25rem] mb-[1.25rem]">Tranquil Haven in the Woods</p>
-                  <p className="text-[1.213rem] font-normal text-[#64748B] mb-[1.25rem]">103 Wright CourtBurien, WA 98168</p>
-                  </div>
-            <div className="carousel-item">
-              <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Burger" />
-            </div>
-          </div>
-          </div>
-        </div>
-         </div>
+          <img className="absolute z-10 right-[21.688rem] bottom-0.2" src="round.png" alt="" />
 
+         </div>
 
       </div>
       

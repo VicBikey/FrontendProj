@@ -29,7 +29,7 @@ export const Services = () => {
       </div>
           <div className="flex flex-col bg-white rounded-3xl w-[21.25rem] h-[22.688rem] pt-[3.75rem] items-center">
             <div className="rounded-full bg-[rgb(67,97,238)] items-center justify-center w-[5.625rem] h-[5.625rem] p-[1.563rem]">
-                <img className='w-[2.5rem] h-[2.496rem]' src="bed.png" alt="" />
+                <img className='w-[2.5rem] h-[2.496rem]' src="bedServ.png" alt="" />
             </div>
           
         <div className="flex flex-col items-center text-center mt-[1.875rem]">
